@@ -85,7 +85,6 @@ fd.write(r"""}
 
 dups = {}
 
-
 for (count, row) in enumerate(rows):
 	data = {}
 	for key in row.custom:
@@ -125,14 +124,3 @@ fd.close()
 # Run LaTeX to make the PDF to print
 os.system("pdflatex document.tex")
 
-
-
-
-
-
-
-
-
-
-
-	
