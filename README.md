@@ -20,3 +20,13 @@ Then, copy sample-config to ~/.christmascard and edit with your Google username,
 
 Type "make" to build document.pdf
 
+Dependencies
+------------
+
+gdata for python, install with:
+
+    easy_install gdata
+
+LaTeX
+
+
