@@ -53,7 +53,7 @@ fd = open("document.tex", "w")
 
 fd.write(r"""
 \documentclass[letter,landscape]{article}
-\usepackage[hmargin={3.75in,0in},vmargin={2.15in,0in}]{geometry}
+\usepackage[papersize={7.5in,4.75in},margin=0.25in]{geometry}
 \usepackage[pdftex]{graphicx}
 \usepackage{cmbright}
 %\usepackage[letter,center,frame,landscape]{crop}
